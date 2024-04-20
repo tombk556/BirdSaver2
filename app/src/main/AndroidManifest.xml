@@ -22,6 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".DeleteView"/>
+        <activity android:name=".IpAddressView"/>
+        <activity android:name=".GPSActivity"/>
+
 
     </application>
 

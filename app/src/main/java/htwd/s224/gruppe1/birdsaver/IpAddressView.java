@@ -1,15 +1,20 @@
 package htwd.s224.gruppe1.birdsaver;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GPSActivity extends AppCompatActivity {
+public class IpAddressView extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gps);
+        setContentView(R.layout.ip_address_view);
     }
 
-
+    public void submitIpAddress(View view){
+        // submit
+    }
 }

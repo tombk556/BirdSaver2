@@ -14,9 +14,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void submitIpAddress(View view){
-        // navigate to delete view
+    public void navigateToIpAddressView(View view){
+        // navigate to ip address view
+        Intent intent = new Intent(this, IpAddressView.class);
+        startActivity(intent);
+    }
+
+    public void navigateToDeleteView(View view){
+        // navigate to ip address view
         Intent intent = new Intent(this, DeleteView.class);
+        startActivity(intent);
+    }
+
+    public void navigateToGpsView(View view){
+        // navigate to ip address view
+        Intent intent = new Intent(this, GPSActivity.class);
         startActivity(intent);
     }
 }

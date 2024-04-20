@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Birdsaver</string>
+    <string name="navigateToIpAddressView">Ip Address View</string>
+    <string name="navigateToDeleteView">Delete View</string>
+    <string name="navigateToGpsView">GPS View</string>
     <string name="submit">Submit</string>
     <string name="ip_address">IP Address</string>
     <string name="home">Home</string>
