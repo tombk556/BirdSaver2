@@ -8,4 +8,5 @@
     <string name="ip_address">IP Address</string>
     <string name="home">Home</string>
     <string name="back">Back</string>
+    <string name="navigateToCameraView">Camera View</string>
 </resources>

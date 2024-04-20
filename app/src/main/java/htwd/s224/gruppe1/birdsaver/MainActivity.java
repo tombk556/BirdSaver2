@@ -21,20 +21,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navigateToDeleteView(View view){
-        // navigate to ip delete view
+        // navigate to delete view
         Intent intent = new Intent(this, DeleteView.class);
         startActivity(intent);
     }
 
     public void navigateToGpsView(View view){
-        // navigate to ip gps view
+        // navigate to gps view
         Intent intent = new Intent(this, GPSActivity.class);
         startActivity(intent);
     }
 
     public void navigateToRedPixelDetectorView(View view){
-        // navigate to ip red pixel detector view
+        // navigate to red pixel detector view
         Intent intent = new Intent(this, ActivityRedPixelDetector.class);
+        startActivity(intent);
+    }
+
+    public void navigateToCameraView(View view){
+        // navigate to camera view
+        Intent intent = new Intent(this, CameraView.class);
         startActivity(intent);
     }
 }
