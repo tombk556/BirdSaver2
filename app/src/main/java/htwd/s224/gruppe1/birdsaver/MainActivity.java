@@ -31,4 +31,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, GPSActivity.class);
         startActivity(intent);
     }
+
+    public void navigateToRedPixelDetectorView(View view){
+        // navigate to ip address view
+        Intent intent = new Intent(this, ActivityRedPixelDetector.class);
+        startActivity(intent);
+    }
 }

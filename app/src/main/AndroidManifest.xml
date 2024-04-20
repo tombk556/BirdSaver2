@@ -24,6 +24,7 @@
         <activity android:name=".DeleteView"/>
         <activity android:name=".IpAddressView"/>
         <activity android:name=".GPSActivity"/>
+        <activity android:name=".ActivityRedPixelDetector"/>
 
 
     </application>
