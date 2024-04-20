@@ -21,19 +21,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navigateToDeleteView(View view){
-        // navigate to ip address view
+        // navigate to ip delete view
         Intent intent = new Intent(this, DeleteView.class);
         startActivity(intent);
     }
 
     public void navigateToGpsView(View view){
-        // navigate to ip address view
+        // navigate to ip gps view
         Intent intent = new Intent(this, GPSActivity.class);
         startActivity(intent);
     }
 
     public void navigateToRedPixelDetectorView(View view){
-        // navigate to ip address view
+        // navigate to ip red pixel detector view
         Intent intent = new Intent(this, ActivityRedPixelDetector.class);
         startActivity(intent);
     }
